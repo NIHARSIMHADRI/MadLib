@@ -48,10 +48,16 @@
         android:hint="Enter your number: _____________" />
 
     <Button
-        android:onClick="sendInfo"
-        android:id="@+id/button"
-        android:layout_width="match_parent"
+        android:id="@+id/oval"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="Convert words to story" />
+        android:layout_marginTop="36dp"
+        android:background="@drawable/oval"
+        android:onClick="sendInfo"
+        android:layout_gravity="center"
+        android:text="Convert words to story"
+        android:textColor="#FFF"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
 
 </LinearLayout>

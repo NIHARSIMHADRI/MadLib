@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         String myAdjectivestr = myAdjective.getText().toString();
         String myVerbstr = myVerb.getText().toString();
         String myAnimalstr = myAnimal.getText().toString();
-        String myNumberstr = myNumber.getText().toString();
+        int myNumberstr = (int) Integer.parseInt(String.valueOf(myNumber));
 // Creating the intent object so I can send data
         Intent intent = new Intent(this, Story.class);
 // putting data from edit text fields into intent to send to other activity
